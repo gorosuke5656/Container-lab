@@ -7,11 +7,10 @@
 Containerlabは、主要なネットワークコンテナをサポートしたネットワークラボツールです。<br>
  ※対応コンテナ：ARISTA cEOS, Juniper cRPD, Cisco XRd, Nokia SR Linux 他複数<br>
   Containerlabでは、yaml形式のトポロジーファイルをもとにコンテナをデプロイし、仮想配線も自動的に実施するため構築の手間を軽減してくれます。<br>
-  
   〇　ContanerLab公式サイト<br>
-　　　　https://containerlab.dev/<br>
+  https://containerlab.dev/<br>
   〇　ContanerLab公式サイト（X）<br>
-       https://x.com/go_containerlab<br>
+  https://x.com/go_containerlab<br>
        
 ### １　ContanerLabの導入<br>
 [次のチャプターへ進む](./introduction-1.md) <br>
