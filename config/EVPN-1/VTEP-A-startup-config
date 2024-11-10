@@ -1,0 +1,78 @@
+! Startup-config last modified at Fri Nov  8 06:15:57 2024 by root
+! device: VTEP-A (cEOSLab, EOS-4.32.0.1F-36950381.43201F (engineering build))
+!
+no aaa root
+!
+username admin privilege 15 role network-admin secret sha512 $6$rgaH.63u6DsUcACb$mr98vqVnnJGyhGfWuq3fO2WPx76aaZ4mr4ShE.9P8DkWmdnac2MbENxjVs4C3V2M0eX3wMTbkFGbE7x2OoW2N/
+!
+transceiver qsfp default-mode 4x10G
+!
+service routing protocols model multi-agent
+!
+hostname VTEP-A
+!
+spanning-tree mode mstp
+!
+system l1
+   unsupported speed action error
+   unsupported error-correction action error
+!
+vlan 100
+!
+management api http-commands
+   no shutdown
+!
+management api gnmi
+   transport grpc default
+!
+management api netconf
+   transport ssh default
+!
+interface Ethernet1
+   description to-core
+   no switchport
+   ip address 172.16.10.10/24
+!
+interface Ethernet2
+   switchport access vlan 100
+!
+interface Loopback0
+   ip address 10.1.1.1/32
+!
+interface Management0
+   ip address 172.20.20.3/24
+   ipv6 address 2001:172:20:20::3/64
+!
+interface Vxlan1
+   vxlan source-interface Loopback0
+   vxlan udp-port 4789
+   vxlan vlan 100 vni 90100
+!
+ip routing
+!
+ip route 0.0.0.0/0 172.20.20.1
+!
+ipv6 route ::/0 2001:172:20:20::1
+!
+router bgp 65000
+   no bgp default ipv4-unicast
+   timers bgp 10 30
+   neighbor 10.2.2.2 remote-as 65000
+   neighbor 10.2.2.2 update-source Loopback0
+   neighbor 10.2.2.2 send-community
+   !
+   vlan 100
+      rd 10.1.1.1:100
+      route-target both 100:90100
+      redistribute learned
+   !
+   address-family evpn
+      neighbor 10.2.2.2 activate
+!
+router ospf 10
+   router-id 1.1.1.1
+   network 10.1.1.1/32 area 0.0.0.0
+   network 172.16.10.10/32 area 0.0.0.0
+   max-lsa 12000
+!
+end
