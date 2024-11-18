@@ -26,7 +26,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
   　[次のチャプターへ進む](./exercises-2.md) <br>
 
 #### (3) VXLAN設定と確認
-　　[次のチャプターへ進む](./exercises-3.md) <br>　　
+　　[次のチャプターへ進む](./VXLAN-1.md) <br>　　
 
 #### (4)EVPN/VXLAN設定と確認
 　  　[次のチャプターへ進む](./exercises-4.md) <br>
