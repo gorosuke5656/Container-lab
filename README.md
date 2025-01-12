@@ -18,7 +18,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 ### ２　Ａristaネットワークさん提供コンテナの導入<br>
 [次のチャプターへ進む](./introduction-2.md) <br>
 
-### ４　ContanerLabによるネットワーク演習<br>
+### ３　AristaコンテナによるContanerLabによるネットワーク演習<br>
 #### (1)　コンテナイメージ起動及びマネージメントネットワークへのアクセス
 　　[次のチャプターへ進む](./exercises-1.md) <br>
 
