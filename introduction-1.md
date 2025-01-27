@@ -42,7 +42,7 @@ https://techblog.ap-com.co.jp/entry/2023/10/26/203441<br>
 クイックスタート Containerlab  Dockerコンテナ的なネットワークラボのご紹介
 https://enog.jp/wordpress/wp-content/uploads/2022/11/ENOG76_containerlab_%E4%BA%8B%E5%BE%8C%E8%B3%87%E6%96%99.pdf<br>
 
-Containerlabを使用した商用環境と同等な検証環境の作成とユースケースについて
+Containerlabを使用した商用環境と同等な検証環境の作成とユースケースについて<br>
 https://www.janog.gr.jp/meeting/janog51/lab/<br>
  
 
