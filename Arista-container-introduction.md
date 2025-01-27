@@ -25,9 +25,12 @@ https://tech.synapse.jp/entry/2023/08/01/183000
   !![Diagram](./images/Arista-container-introduction/3.jpg)<br>
   
   そうするとダウンロードが可能になります<br>
-  
-  
-  
+
+  !![Diagram](./images/Arista-container-introduction/4.jpg)<br>
+  !![Diagram](./images/Arista-container-introduction/5.jpg)<br>
+  !![Diagram](./images/Arista-container-introduction/6.jpg)<br>
+  !![Diagram](./images/Arista-container-introduction/7.jpg)<br>
+  !![Diagram](./images/Arista-container-introduction/8.jpg)<br>
 
 
 
