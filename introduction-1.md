@@ -21,7 +21,7 @@ UbuntuでDockerとContainerLabをインストールしました！<br>
 
 #### 2 Container-labの導入<br>
   以下を参考にインストールします<br>
-  Containerlabのインストール公式,br>
+  Containerlabのインストール公式<br>
   https://containerlab.dev/install/<br>
 
 ![Diagram](./images/introduction/introduction-2.jpg)<br>
