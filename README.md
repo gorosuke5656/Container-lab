@@ -18,8 +18,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 ### ２　各種コンテナの導入<br>
 ##### (1) Aristaネットワークさん提供コンテナの導入<br>
 [次のチャプターへ進む](./Arista-container-introduction.md) <br>
-##### (2)Netshootの導入<br>
-[次のチャプターへ進む](./introduction-Netshoot.md) <br>
+
 
 ### ３　AristaコンテナによるContanerLabによるネットワーク演習<br>
 #### (1)　コンテナイメージ起動及びマネージメントネットワークへのアクセス
@@ -27,6 +26,9 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 
 #### (2)　OSPF設定と確認
   　[次のチャプターへ進む](./ospf.md) <br>
+
+##### (3)Netshootの導入<br>
+[次のチャプターへ進む](./introduction-Netshoot.md) <br>
 
 #### (3)　BGP設定と確認
    [次のチャプターへ進む](./BGP.md) <br>
