@@ -2,11 +2,9 @@
 #### 今回の説明事例<br>
   ![Diagram](./images/ContanerLab-basic-operation/1.jpg)<br>
   図のようにCEOS２台とPC(Netshoot）が２台稼働する状態です<br>
-###今回の起動ファイル<br>
+### 今回の起動ファイル<br>
  ![Diagram](./images/ContanerLab-basic-operation/2.jpg)<br>
 起動ファイルは　"ospf-lab-2.yml”になります。<br>
-
-
 #####　ContanerLab起動<br>
 管理者権限(root)若しくはsudoコマンドで以下のように指定して起動します<br>
 
