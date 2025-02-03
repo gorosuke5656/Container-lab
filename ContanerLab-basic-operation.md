@@ -18,7 +18,7 @@ root@gorosuke-vartual-box:home/gorosuke/container_lab#ContanerLab　deploy -t os
 root@gorosuke-vartual-box:home/gorosuke/container_lab#clab inspect --all<br>
 ![Diagram](./images/ContanerLab-basic-operation/5.jpg)<br>
 
-また以下のようにDocker psコマンドでも確認できます
+また以下のようにDocker psコマンドでも確認できます<br>
 root@gorosuke-vartual-box:home/gorosuke/container_lab#docker ps<br>
 ![Diagram](./images/ContanerLab-basic-operation/6.jpg)<br>
 起動したコンテナは/etc/hostsファイルに登録されるためコンテナ名でアクセスが可能です！<br>
