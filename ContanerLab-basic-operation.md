@@ -5,9 +5,8 @@
 ### 今回の起動ファイル<br>
  ![Diagram](./images/ContanerLab-basic-operation/2.jpg)<br>
 起動ファイルは　"ospf-lab-2.yml”になります。<br>
-#####　ContanerLab起動<br>
+##### ContanerLab起動<br>
 管理者権限(root)若しくはsudoコマンドで以下のように指定して起動します<br>
-
 root@gorosuke-vartual-box:home/gorosuke/container_lab#ContanerLab　deploy -t ospf-lab-2.yml<br>
 ![Diagram](./images/ContanerLab-basic-operation/3.jpg)<br>
 
