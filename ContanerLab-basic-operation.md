@@ -1,4 +1,5 @@
 操作の説明として下記の例で説明します。
+  ![Diagram](./images/ContanerLab-basic-operation/1.jpg)<br>
 
 ####　ContanerLab起動
 　　　ContanerLab　deploy -t ospf-lab-2.yml
