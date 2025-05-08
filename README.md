@@ -11,6 +11,8 @@ Containerlabは、主要なネットワークコンテナをサポートした�
   https://containerlab.dev/<br>
   〇　ContanerLab公式サイト（X）<br>
   https://x.com/go_containerlab<br>
+  〇　Containerlabユーザ・マニュアル<br>
+  　https://zenn.dev/moatdrive/books/containerlab-manual<br>
        
 ### １　ContanerLabの導入<br>
 [次のチャプターへ進む](./introduction-1.md) <br>
