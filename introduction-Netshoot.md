@@ -17,63 +17,72 @@ Qiitaで参考にしたサイト<br>
  
 ### ContainerLabにおけるnetshootのインストール及び確認<br>
 
+今回、以下の構成でnetshoowを導入してみました！<br>
+![Diagram](./images/introduction-netshoot/1.jpg)<br>
+
+以下、実施手順です。<br>
+
 【事前準備】<br>
-　①　netshootのインストール
-　　Docker Hub からnetshootをダウンロードする<br>
-
+　①　netshootのインストール<br>
+　　　　Docker Hub から Docker pull コマンドにより　”netshoot”をダウンロードする<br>
 　②　ymlファイルの作成（ファイル：ospf-lab-2.yml)<br>
-　　　以下の条件で設定<br>
+　③　ContainerLabの起動　【①のymlファイルを読みこみ起動】<br>
+　④　CEOSにおける設定（OSPF）<br>
 
+【確認】
+　①　netshootにログインし、経路情報を確認<br>
+　②　netshootにログインし、Tracerouteによる確認<br>
+　③　Iperfでの確認<br>
+
+【設定保存】
+　　ContainerLab saveコマンドによる設定保存（CEOSにおいては事前に copy run start を実施しておく）<br>
  
-
-今回使用したymlファイルは以下に格納しています！<br>
+今回使用したymlファイルは以下に格納しています！！<br>
 　https://github.com/gorosuke5656/Container-lab/blob/main/yml-file/ospf-lab-2.yml<br>
 
 
+#### 事前準備<br>
+①　netshootのインストール<br>
+　　　　Docker Hub から Docker pull コマンドにより　”netshoot”をダウンロードする<br>
+    ![Diagram](./images/introduction-netshoot/2.jpg)<br>
+    ![Diagram](./images/introduction-netshoot/3.jpg)<br>
+    ![Diagram](./images/introduction-netshoot/4.jpg)<br>
 
+    ②　ymlファイルの作成（ファイル：ospf-lab-2.yml)<br>
+   ![Diagram](./images/introduction-netshoot/5.jpg)<br>
+   ここでポイントですが、事前にnetshootに設定するIPアドレスおよび経路情報を明示して設定しておきます<br>
+
+   ③　ContainerLabの起動　【①のymlファイルを読みこみ起動】<br>
+   ![Diagram](./images/introduction-netshoot/6.jpg)<br>
+
+   ④　CEOSにおける設定（OSPF）<br>
+    ![Diagram](./images/introduction-netshoot/7.jpg)<br>
+
+
+   #### 【確認】
+　①　netshootにログインし、経路情報を確認<br>
+　  ![Diagram](./images/introduction-netshoot/8.jpg)<br>
+  
+  ②　netshootにログインし、Tracerouteによる確認<br>
+　  ![Diagram](./images/introduction-netshoot/9.jpg)<br>
+    ![Diagram](./images/introduction-netshoot/10.jpg)<br>
+    
+ ③　Iperfでの確認<br>
+   ![Diagram](./images/introduction-netshoot/11.jpg)<br>
+   
+    
+   
+
+   
+
+   
+
+    
+    
 
 
 
  
 
  
-### 今回の起動ファイル<br>
- ![Diagram](./images/ContanerLab-basic-operation/2.jpg)<br>
-起動ファイルは　"ospf-lab-2.yml”になります。<br>
-##### ContanerLab起動<br>
-管理者権限(root)若しくはsudoコマンドで以下のように指定して起動します<br>
-root@gorosuke-vartual-box:home/gorosuke/container_lab#ContanerLab　deploy -t ospf-lab-2.yml<br>
-![Diagram](./images/ContanerLab-basic-operation/3.jpg)<br>
-
- ###### 起動後の表示<br>
- 起動が完了すると以下のように表示されます！
-![Diagram](./images/ContanerLab-basic-operation/4.jpg)<br>
-
-#### 起動コンテナの状態確認<br>
-root@gorosuke-vartual-box:home/gorosuke/container_lab#clab inspect --all<br>
-![Diagram](./images/ContanerLab-basic-operation/5.jpg)<br>
-
-また以下のようにDocker psコマンドでも確認できます<br>
-root@gorosuke-vartual-box:home/gorosuke/container_lab#docker ps<br>
-![Diagram](./images/ContanerLab-basic-operation/6.jpg)<br>
-起動したコンテナは/etc/hostsファイルに登録されるためコンテナ名でアクセスが可能です！<br>
-![Diagram](./images/ContanerLab-basic-operation/7.jpg)<br>
-
-#### 起動コンテナへのアクセス<br>
-起動するコンテナによって若干異なります<br>
-〇 Aristaさんコンテナの場合<br>
-root@gorosuke-vartual-box:home/gorosuke/container_lab#docker exec -it ”ラボ名+コンテナ名" Cli<br>
-![Diagram](./images/ContanerLab-basic-operation/8.jpg)<br>
-
-〇Linux(netshoot)の場合
- root@gorosuke-vartual-box:home/gorosuke/container_lab#docker exec -it ”ラボ名+コンテナ名" bash<br>
-![Diagram](./images/ContanerLab-basic-operation/9.jpg)<br>
-
-#### 起動NWのトポロジー表示<br>
-以下のコマンドでトポロジーファイルを表示できます！<br>
- root@gorosuke-vartual-box:home/gorosuke/container_lab#containerlab graph -t  "起動ファイル" <br>
-![Diagram](./images/ContanerLab-basic-operation/10.jpg)<br>
-
-#### 起動コンテナの停止<br>
- root@gorosuke-vartual-box:home/gorosuke/container_lab#containerlab graph -t  "起動ファイル" <br>
-
+#
