@@ -48,26 +48,26 @@ Qiitaで参考にしたサイト<br>
     ![Diagram](./images/introduction-netshoot/3.jpg)<br>
     ![Diagram](./images/introduction-netshoot/4.jpg)<br>
 
-    ②　ymlファイルの作成（ファイル：ospf-lab-2.yml)<br>
+②　ymlファイルの作成（ファイル：ospf-lab-2.yml)<br>
    ![Diagram](./images/introduction-netshoot/5.jpg)<br>
    ここでポイントですが、事前にnetshootに設定するIPアドレスおよび経路情報を明示して設定しておきます<br>
 
-   ③　ContainerLabの起動　【①のymlファイルを読みこみ起動】<br>
+③　ContainerLabの起動　【①のymlファイルを読みこみ起動】<br>
    ![Diagram](./images/introduction-netshoot/6.jpg)<br>
 
-   ④　CEOSにおける設定（OSPF）<br>
+④　CEOSにおける設定（OSPF）<br>
     ![Diagram](./images/introduction-netshoot/7.jpg)<br>
 
 
-   #### 【確認】
-　①　netshootにログインし、経路情報を確認<br>
+ #### 【確認】
+①　netshootにログインし、経路情報を確認<br>
 　  ![Diagram](./images/introduction-netshoot/8.jpg)<br>
   
-  ②　netshootにログインし、Tracerouteによる確認<br>
+②　netshootにログインし、Tracerouteによる確認<br>
 　  ![Diagram](./images/introduction-netshoot/9.jpg)<br>
     ![Diagram](./images/introduction-netshoot/10.jpg)<br>
     
- ③　Iperfでの確認<br>
+③　Iperfでの確認<br>
    ![Diagram](./images/introduction-netshoot/11.jpg)<br>
    
     
