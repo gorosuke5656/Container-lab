@@ -18,6 +18,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 [次のチャプターへ進む](./introduction-1.md) <br>
 
 ### （参考）　ContanerLabの導入(Aploma Linux編）<br>
+[次のチャプターへ進む](./introduction-Aploma-Linux.md) <br>
 
 ### ２　ContanerLabの基本操作<br>
 [次のチャプターへ進む](./ContanerLab-basic-operation.md) <br>
