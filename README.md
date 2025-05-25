@@ -16,7 +16,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
   〇　Containerlabユーザ・マニュアル<br>
   　https://zenn.dev/moatdrive/books/containerlab-manual<br>
        
-### １　ContanerLabの導入(Ubunt編）<br>
+### １　ContanerLabの導入(Ubuntu編）<br>
 [次のチャプターへ進む](./introduction-1.md) <br>
 
 ### （参考）　ContanerLabの導入(Aploma Linux編）<br>
