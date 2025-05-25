@@ -35,6 +35,8 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 #### (2)　OSPF設定と確認
   　[次のチャプターへ進む](./ospf.md) <br>
 
+#### (3) IS-ISの設定と確認
+
 #### (3)Netshootの導入<br>
 [次のチャプターへ進む](./introduction-Netshoot.md) <br>
 
