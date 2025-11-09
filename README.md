@@ -1,4 +1,4 @@
-自宅に導入したContanerLabでのNW構築要領について説明します！
+自宅に導入したContanerLabでのNW構築要領について説明します！<br>
 （今回はAristaさんのコンテナイメージを使用します）<br>
 
 ## 内容<br>
@@ -32,21 +32,27 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 #### (1)　コンテナイメージ起動及びマネージメントネットワークへのアクセス
 　　[次のチャプターへ進む](./exercises-1.md) <br>
 
-#### (2)　OSPF設定と確認
-  　[次のチャプターへ進む](./ospf.md) <br>
-
-#### (3) IS-ISの設定と確認
+#### (2) AristaEOSの基礎<br>
 
 #### (3)Netshootの導入<br>
 [次のチャプターへ進む](./introduction-Netshoot.md) <br>
 
-#### (3)　BGP設定と確認
+#### (2)　OSPF設定と確認<br>
+  　[次のチャプターへ進む](./ospf.md) <br>
+
+#### (3) IS-ISの設定と確認<br>
+
+
+
+#### (3)　BGP設定と確認<br>
    [次のチャプターへ進む](./BGP.md) <br>
 
-#### (3) VXLAN設定と確認
+### () MLAGの設定と確認<br>
+
+#### (3) VXLAN設定と確認<br>
 　　[次のチャプターへ進む](./VXLAN-1.md) <br>　　
 
-#### (4)EVPN/VXLAN設定と確認
+#### (4)EVPN/VXLAN設定と確認<br>
 　  　[次のチャプターへ進む](./EVPN－VXLAN.md) <br>
 
 ブログもやってます~<br>
