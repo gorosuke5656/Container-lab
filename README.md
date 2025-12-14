@@ -1,5 +1,5 @@
 自宅に導入したContanerLabでのNW構築要領について説明します！<br>
-（今回はAristaさんのコンテナイメージを使用します）<br>
+（今回はAristaさんのコンテナイメージ(Arista CEOS）を使用します）<br>
 
 ## 内容<br>
 
@@ -46,7 +46,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 
 
 #### (3)　BGP設定と確認<br>
-   [次のチャプターへ進む](./BGP.md) <br>
+   [次のチャプターへ進む](./BGP-exercises.md) <br>
 
 ### () MLAGの設定と確認<br>
 
