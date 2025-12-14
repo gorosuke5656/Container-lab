@@ -33,6 +33,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 　　[次のチャプターへ進む](./exercises-1.md) <br>
 
 #### (2) AristaEOSの基礎<br>
+   [次のチャプターへ進む](./AristaEOS-BASIC.md) <br>
 
 #### (3)Netshootの導入<br>
 [次のチャプターへ進む](./introduction-Netshoot.md) <br>
