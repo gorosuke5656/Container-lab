@@ -42,6 +42,7 @@
 
 ## 起動NWの保存<br>
 ### 以下のコマンドで起動NWのymlを保存しておきましょう！！<br>
+root@gorosuke-vartual-box:home/gorosuke/container_lab#containerlab save --topo "起動ファイル" 
 ![Diagram](./images/ContanerLab-basic-operation/13.jpg)<br>
 
 ## 起動コンテナの停止<br>
