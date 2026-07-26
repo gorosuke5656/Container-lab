@@ -46,7 +46,7 @@ Containerlabは、主要なネットワークコンテナをサポートした�
 #### (7)　BGP設定と確認<br>
    [次のチャプターへ進む](./BGP-exercises.md) <br>
 
-### (8) MLAGの設定と確認<br>
+#### (8) MLAGの設定と確認<br>
 
 #### (9) VXLAN設定と確認<br>
 　　[次のチャプターへ進む](./VXLAN-1.md) <br>　　
