@@ -33,5 +33,9 @@
 ##### 事前準備（yamlファイルの起動)<br>
 <img width="1378" height="730" alt="image" src="https://github.com/user-attachments/assets/3b15febb-2490-468f-a4a7-4edf5892d13c" />
 
+#### 設定内容<br>
+<img width="1391" height="696" alt="image" src="https://github.com/user-attachments/assets/ab913170-6739-4a12-bc75-fe56ce7576dc" />
+
+
 
 
