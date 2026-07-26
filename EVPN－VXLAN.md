@@ -18,10 +18,12 @@
 
 <img width="1381" height="687" alt="image" src="https://github.com/user-attachments/assets/8eb079eb-b5ba-4e34-ba60-118e95ef0d36" />
 
-#### 【MP-BGP (Multi Protocol BGP)とは？？】<br>
-<img width="1399" height="664" alt="image" src="https://github.com/user-attachments/assets/f4024a6b-102a-4581-92e1-1a3893508356" />
-
 
 ### 2　EVPN/VXLAN設定例（その１）<br>
+
+#### (1) その１における構成図<br>
+<img width="1391" height="733" alt="image" src="https://github.com/user-attachments/assets/4a3aa28d-59cb-406d-ab7e-a22469352fa7" />
+
+#### (2) その１における設定手順<br>
 <img width="1399" height="664" alt="image" src="https://github.com/user-attachments/assets/f4024a6b-102a-4581-92e1-1a3893508356" />
 
