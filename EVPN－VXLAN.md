@@ -23,5 +23,5 @@
 
 
 ### 2　EVPN/VXLAN設定例（その１）<br>
-
+<img width="1399" height="664" alt="image" src="https://github.com/user-attachments/assets/f4024a6b-102a-4581-92e1-1a3893508356" />
 
